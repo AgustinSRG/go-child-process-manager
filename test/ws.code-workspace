@@ -6,7 +6,6 @@
 	],
 	"settings": {
 		"files.exclude": {
-			"test": true,
 		},
 	}
 }
