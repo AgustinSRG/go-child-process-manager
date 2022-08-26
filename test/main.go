@@ -96,7 +96,7 @@ func RunMainProcess(useLibrary bool) {
 	childP, err := os.FindProcess(int(pid))
 
 	if err != nil {
-		fmt.Println("SUCESS | THE CHILD PROCESS IS DEAD")
+		fmt.Println("SUCCESS | THE CHILD PROCESS IS DEAD")
 		return
 	}
 
@@ -106,7 +106,7 @@ func RunMainProcess(useLibrary bool) {
 		fmt.Println("ERROR | THE CHILD PROCESS WAS ALIVE")
 		os.Exit(1)
 	} else {
-		fmt.Println("SUCESS | THE CHILD PROCESS IS DEAD")
+		fmt.Println("SUCCESS | THE CHILD PROCESS IS DEAD")
 	}
 }
 

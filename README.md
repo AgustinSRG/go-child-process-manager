@@ -83,7 +83,7 @@ Run the test binary:
 ./test
 ```
 
-After it finishes, it should print `SUCESS | THE CHILD PROCESS IS DEAD`
+After it finishes, it should print `SUCCESS | THE CHILD PROCESS IS DEAD`
 
 If you want to test what happens without using this library, use the following:
 
