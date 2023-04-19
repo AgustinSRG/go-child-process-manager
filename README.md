@@ -24,7 +24,7 @@ import (
 
 func main() {
 	// The child process manager must be initialized before any child processes are created
-	err := child_process_manager.InitalizeChildProcessManager()
+	err := child_process_manager.InitializeChildProcessManager()
 	if err != nil {
 		panic(err)
 	}

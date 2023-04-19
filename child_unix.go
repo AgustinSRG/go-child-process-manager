@@ -9,7 +9,7 @@ import (
 )
 
 // Initializes child process manager
-func InitalizeChildProcessManager() error {
+func InitializeChildProcessManager() error {
 	return nil
 }
 

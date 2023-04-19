@@ -1,6 +1,6 @@
 //go:build windows
 
-// Original source of this aproach: https://gist.github.com/hallazzang/76f3970bfc949831808bbebc8ca15209
+// Original source of this approach: https://gist.github.com/hallazzang/76f3970bfc949831808bbebc8ca15209
 // Credits for this code to @hallazzang
 
 package child_process_manager
@@ -14,7 +14,7 @@ import (
 	"golang.org/x/sys/windows"
 )
 
-// We use this struct to retreive process handle(which is unexported)
+// We use this struct to retrieve process handle(which is unexported)
 // from os.Process using unsafe operation.
 type process struct {
 	Pid    int
@@ -57,7 +57,7 @@ func createChildProcessManager() (*childProcessManager, error) {
 }
 
 // Initializes child process manager
-func InitalizeChildProcessManager() error {
+func InitializeChildProcessManager() error {
 	pm, err := createChildProcessManager()
 
 	if err != nil {
