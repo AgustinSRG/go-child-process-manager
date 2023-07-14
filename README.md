@@ -2,6 +2,8 @@
 
 This is a simple library to ensure all the child processes are killed if the main process is killed.
 
+[Documentation](https://pkg.go.dev/github.com/AgustinSRG/go-child-process-manager)
+
 ## Usage
 
 Import the module
